@@ -36,9 +36,16 @@ public class AgeCalculator {
 		int newAge = currentAge + yearsToAdd;
 
 		//Finally, display the user's age in this year, but only if it's valid.
-		if (newAge >= 0)
+		if (newAge >= 0){
 			System.out.println("You will be " + newAge + "-years-old in "
-				+ anotherYear + ".");
+				+ anotherYear + ".");}
+                else if (newAge == 1){
+                    System.out.println("You will be " + newAge + " -year-old in " 
+                    + anotherYear + ".");}
+                else {
+                    System.out.println("Error! You have not been born yet.");}
+                
+                }
 
 		/* 
 		 EXTRA CREDIT 1: Use an else statement above to output an error message. This
@@ -55,4 +62,3 @@ public class AgeCalculator {
 		 attemtping.
 		 */
 	}
-}
