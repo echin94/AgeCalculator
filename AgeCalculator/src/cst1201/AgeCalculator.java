@@ -45,11 +45,11 @@ public class AgeCalculator {
                 else if (anotherYear < 2015){
                     System.out.println("You were " + newAge + " -years-old in " 
                     + anotherYear + ".");}
-                else if (currentYear <= 2015){
+                else {
                     System.out.println("Error! You have not been born yet.");}
                 
                 }
-                /* I am attempting 2 & 3 of the extra credit.
+                /* I am attempting all of the extra credits.
 
 		/* 
 		 EXTRA CREDIT 1: Use an else statement above to output an error message. This
